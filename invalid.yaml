@@ -1,0 +1,10 @@
+apiVersion: tekton.dev/v1beta1
+kind: Task
+metadata:
+  name: cat-readme
+  annotations:
+    openshift.io/description: 'A task to cat the README'
+    openshift.io/display-name: cat-readme
+aaa
+ddd
+cd 
